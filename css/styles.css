@@ -1,0 +1,42 @@
+/* body (font-family, color та background-color)
+CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках. */
+
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-family: "Roboto";
+}
+
+.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}

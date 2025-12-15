@@ -109,6 +109,16 @@ body {
 }
 
 /* Advantages Section */
+.advantages-list {
+    padding: 30px;
+}
+
+.advantages-title {
+    line-height: 2;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
 
 /* Our Team Section */
 .team-section {

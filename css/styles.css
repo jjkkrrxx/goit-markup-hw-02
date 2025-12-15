@@ -1,15 +1,200 @@
 /* body (font-family, color та background-color)
 CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках. */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
 }
 
 .accent {
     color: #4D5AE5;
 }
+
+/* Header */
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    
+}
+
+.header-logo-link {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E2F42;
+    text-transform: uppercase;
+}
+
+.header-menu-list {
+    gap: 40px;
+    list-style-type: none;
+}
+
+.header-menu-link {
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1.5;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF;
+}
+
+.header-address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 12px;
+}
+
+.header-address-link {
+    font-size: 16px;
+    color: #434455;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #2E2F42;
+    text-align: center;
+    padding: 188px;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: medium;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* Advantages Section */
+
+/* Our Team Section */
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-list {
+    margin: auto;
+    padding: 30px;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-member-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    margin: 30px;
+    text-align: center;
+}
+
+.team-member-position {
+    font-size: 16px;
+    color: #434455;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Our Portfolio Section */
+.portfolio-section {
+    padding: 30px;
+}
+
+.portfolio-section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.portfolio-list {
+    margin: auto;
+}
+
+.portfolio-item-title {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    margin: 32px;
+}
+
+.portfolio-item-text {
+    font-size: 16px;
+    color: #434455;
+    margin: 32px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+    padding: 100px;
+}
+
+.footer-logo-link {
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #F4F4FD;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+}
+
+
 
 a {
     text-decoration: none;
@@ -23,20 +208,4 @@ ul {
 
 h1, h2 {
     font-family: "Roboto";
-}
-
-.raleway-<uniquifier> {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-.roboto-<uniquifier> {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 }

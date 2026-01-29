@@ -13,6 +13,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .studio-header-logo{
@@ -26,6 +27,7 @@ body{
     color: #2e2f42;
     letter-spacing: 0.02em;
     list-style-type: none;
+    text-decoration: none;
 }
 
 :hover.header-menu-link{
@@ -52,6 +54,7 @@ body{
     color: #434455;
     font-style: normal;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts {
@@ -79,9 +82,8 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
-    background-color: #4d5ae5;
     line-height: 1.5;
+    background-color: #4d5ae5;
     color: #fff;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -103,7 +105,7 @@ body{
 .title-two{
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
@@ -113,7 +115,7 @@ body{
 .title-three{
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
 }
@@ -121,7 +123,7 @@ body{
 .paragraph {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
 }
@@ -129,19 +131,36 @@ body{
 /* Our Team Section */
 .team-section{
     background-color: #F4F4FD;
+    list-style: none;
 }
-.team-li {
+
+.team-item{
     background-color: #ffffff;
 }
 
+.team-item h3,
+.team-item p {
+    text-align: center;
+}
+
+.team-li {
+    background-color: #F4F4FD;
+}
+ul {
+    list-style: none;
+}
+
 /* Our Portfolio Section */
+.portfolio-li{
+    list-style: none;
+}
 
 /* Footer */
 .footer-end{
     background: #2e2f42;
 }
 
-.footer-logo-link{
+.web-footer-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -149,6 +168,11 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.studio-footer-logo {
+    color: #2e2f42;
 }
 
 .footer-text{
